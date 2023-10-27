@@ -6,3 +6,5 @@ Linguagens para dev. web:
 * ruby
 * rust
 * dart
+
+primeira atualizacao.
