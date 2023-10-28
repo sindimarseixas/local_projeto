@@ -1,0 +1,10 @@
+Linguagens para dev. web: 
+* javascript
+* java
+* python
+* php
+* ruby
+* rust
+* dart
+
+primeira atualizacao.
