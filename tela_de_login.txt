@@ -1,10 +1,1 @@
-Linguagens para dev. web: 
-* javascript
-* java
-* python
-* php
-* ruby
-* rust
-* dart
-
-primeira atualizacao.
+irie adicionar as novas cores aos botoes da tela de login.
