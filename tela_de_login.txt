@@ -1,1 +1,27 @@
-irie adicionar as novas cores aos botoes da tela de login.
+<?php
+include_once('layout.php');
+?>
+<?php
+//    "eXcript" != "excript"
+$senha = 12345;
+
+if (isset($_POST["senha"])) {
+    //        echo $_POST["login"] . "<br>";
+    //        echo $_POST["senha"];
+    if ($_POST["senha"] == $senha) {
+        echo "ACESSO CONCEDIDO";
+        print "<script>setTimeout(function(){window.location.href = '?page=setor_asus';}, 2000);</script>";
+    } else {
+        echo "SENHA INVÁLIDA";
+    }
+}
+
+?>
+
+<div class="text-center">
+    <form method="post" class="col-3">
+        <label for="">SENHA</label>
+        <input type="password" name="senha" id="form3Example1" class="form-control mb-2" required />
+        <button type="submit" class="btn btn-acesso">Acessar</button>
+    </form>
+</div>
